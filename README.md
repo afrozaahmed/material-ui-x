@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://material-ui.com/" rel="noopener" target="_blank"><img width="150" src="https://material-ui.com/static/logo.svg" alt="Material-UI logo"></a></p>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Material-UI X</h1>
 
-## Available Scripts
+The [main repository](https://github.com/mui-org/material-ui) of Material-UI focuses on providing a ready-to-use design system, as well as empowering developers to build their own.
 
-In the project directory, you can run:
+This Material-UI X mono-repo gathers the advanced Material-UI components – it's an extension of the core. The fundamental features are MIT licensed, and the more advanced ones commercial.
 
-### `npm start`
+## How do we decide if a feature is MIT or commercial?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+We have been building MIT React components since 2014,
+and have learned much about the strengths and weaknesses of the MIT license model.
+The health of this model is improving every day. As the community grows, it increases the probability that developers contribute improvements to the project.
+However, we believe that we have reached the sustainability limits of what the model can support for advancing our mission forward. We have seen too many MIT licensed components moving slowly or getting abandoned. The community isn't contributing improvements as fast as the problems deserved to be solved.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+We are using a commercial license to forward the development of the most advanced features, where the MIT model can't sustain it.
+A solution to a problem should only be commercial if it has no MIT alternatives.
 
-### `npm test`
+We provide three options:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Community**. This plan contains the MIT components that are sustainable by the contributions of the open-source community. Free forever.
+- **Pro**. This plan contains the features that are at the limit of what the open-source model can sustain. For instance, providing a very comprehensive set of components. From a price perspective, the plan is designed to be accessible to most professionals.
+- **Premium**. This plan contains the most advanced features.
 
-### `npm run build`
+## Components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [DataGrid](https://material-ui.com/components/data-grid/), published under `@material-ui/data-grid`, MIT licensed.
+- [XGrid](https://material-ui.com/components/data-grid/#commercial-version), published under `@material-ui/x-grid`, commercially licensed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Questions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For _how-to_ questions and other non-issues,
+please use [StackOverflow](https://stackoverflow.com/questions/tagged/material-ui) instead of GitHub issues.
+There is a StackOverflow tag called "material-ui" that you can use to tag your questions.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Read the [contributing guide](/CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Material-UI X.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Notice that contributions go far beyond pull requests and commits.
+Although we love giving you the opportunity to put your stamp on Material-UI, we also are thrilled to receive a variety of [other contributions](https://material-ui.com/getting-started/faq/#material-ui-is-awesome-how-can-i-support-the-project).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Changelog
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you have recently updated, please read the [changelog](https://github.com/mui-org/material-ui-x/releases) for details of what has changed.
 
-## Learn More
+## Roadmap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The future plans and high priority features and enhancements can be found in the [roadmap](https://material-ui.com/discover-more/roadmap/) file.
